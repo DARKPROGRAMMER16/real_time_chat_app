@@ -1,0 +1,75 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 14rem;
+    height: 10rem;
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 65vh;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message{
+    /* width: 30%; */
+    padding: 10px;
+    margin: -10px 12px;
+    /* border: 2px solid black;
+    border-radius: 10px; */
+}
+.message p {
+    /* width: 30%; */
+    /* max-width: 10rem; */
+    padding: 10px;
+    margin: -12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.incoming{
+float: left;
+clear: both;
+margin-right: auto;
+}
+
+.outgoing{
+float: right;
+clear: both;
+margin-left: auto;
+}
+
+
+.send{
+    margin-top: 5px;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 85%;
+    width: 100%;
+}
+
+#textarea{
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 25px;
+    font-size: 23px;
+    outline: none;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    width: 15%;
+    height: 31px;
+    border-radius: 15px;
+    outline: none;
+}
